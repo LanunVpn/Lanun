@@ -3,7 +3,7 @@ clear
 
 echo -e "${green}START UPDATE${NC}"
 sleep 5
-websc=websc=https://raw.githubusercontent.com/LanunVpn/Lanun/main
+websc=https://raw.githubusercontent.com/LanunVpn/Lanun/main
 
 wget ${websc}/script/kemaskini.sh && chmod +x kemaskini.sh && ./kemaskini.sh
 
