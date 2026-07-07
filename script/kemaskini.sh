@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 
-websc=https://raw.githubusercontent.com/LanunVpn/Lanun/main/script
+websc=https://raw.githubusercontent.com/LanunVpn/Lanun/main
 
 #delete file
 rm -f /usr/local/bin/mxray
