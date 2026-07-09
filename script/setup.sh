@@ -23,7 +23,7 @@ sleep 2
 mkdir /etc/pass
 clear
 read -rp "    MASUKKAN PASSWORD ANDA: " -e pass
-IZIN=$(curl https://raw.githubusercontent.com/LanunVpn/Lanun/main/IP/accsess | grep $pass | awk '{print $2}')
+IZIN=$(curl https://raw.githubusercontent.com/LanunVpn/Lanun/main/script/IP/accsess | grep $pass | awk '{print $2}')
 if [ $pass = $IZIN ]; then
     echo -e ""
     echo -e "${gr}ACCESS GRANTED...${NC}"
