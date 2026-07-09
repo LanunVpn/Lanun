@@ -25,7 +25,7 @@ usrovpn="$gr$(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd | wc
 
 clear
 echo -e  " ${bb}═════════════════════════════════════════════════════════════════${NC}"
-echo -e  " "   "         " ${cy}WELCOME TO LANUNVPN PREMIUM SCRIPT ${NC}" 
+echo -e  " "   "         " ${cy}WELCOME TO LANUNVPN PREMIUM SCRIPT ${NC}" "
 echo -e  " ${bb}═════════════════════════════════════════════════════════════════${NC}"
 echo -e  "  ${cy}IP VPS NUMBER                    : $IPVPS${NC}"
 echo -e  "  ${cy}DOMAIN                           : $DOMAIN${NC}"
